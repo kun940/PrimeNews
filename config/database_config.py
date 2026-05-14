@@ -2,7 +2,7 @@ from sqlalchemy.ext.asyncio import create_async_engine,AsyncSession,async_sessio
 
 #数据库连接参数
 #数据库URL
-ASYNC_DATABASE_URL = "mysql+aiomysql://root:Lkj070329@localhost:3306/news_app?charset=utf8"
+ASYNC_DATABASE_URL = "mysql+aiomysql://名称:密码@localhost:3306/news_app?charset=utf8"
 #创建异步引擎
 async_engine=create_async_engine(
     ASYNC_DATABASE_URL,
